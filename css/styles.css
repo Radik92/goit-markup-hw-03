@@ -194,7 +194,7 @@ a {
   line-height: 24px;
   color: #434455;
 }
-.title-projects {
+.title-projects-doing {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -253,6 +253,7 @@ a {
   line-height: 1.2;
   color: #2e2f42;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .title-team {
@@ -465,11 +466,7 @@ button {
   margin-left: 24px;
 }
 
-.header-li-lost {
-  margin-right: 0;
-}
-
-.adress-li-lost {
+.lost {
   margin-right: 0;
 }
 
@@ -477,4 +474,11 @@ button {
   margin-right: 24px;
   width: calc((100% - 72px) / 4);
   flex-basis: calc((100% - 3 * 24px) / 4);
+}
+
+.title-doing {
+  padding-bottom: 120px;
+}
+
+.title-projects-group {
 }
