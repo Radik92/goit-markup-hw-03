@@ -345,8 +345,10 @@ a {
 /* Footer */
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
   padding-top: 100px;
 }
+
 .web-link-footer {
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
