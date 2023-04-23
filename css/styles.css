@@ -171,7 +171,9 @@ a {
   background: #404bbf;
 }
 .main-section-work {
+  padding: 120px 0 120px;
 }
+
 /* What are we doing */
 .work-title {
   font-family: 'Roboto';
@@ -181,6 +183,7 @@ a {
   font-size: 20px;
   line-height: 24px;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .work-text {
   font-family: 'Roboto';
@@ -454,6 +457,10 @@ button {
   display: flex;
 }
 
+.work-menu-paragraf {
+  gap: 24px;
+}
+
 .work-paragraf {
   margin-left: 24px;
 }
@@ -464,4 +471,8 @@ button {
 
 .adress-li-lost {
   margin-right: 0;
+}
+
+.work-li {
+  margin-right: 24px;
 }
