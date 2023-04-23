@@ -20,6 +20,15 @@ ul {
 a {
   text-decoration: none;
 }
+
+.container {
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 15px;
+  padding-right: 15px;
+}
+
 /*  */
 .body {
   font-family: 'Roboto', sans-serif;
@@ -27,13 +36,21 @@ a {
   background-color: #ffffff;
 }
 /* Navigation */
-.header-hero {
+.header-hero-header {
   color: #434455;
   background-color: #ffffff;
   font-family: 'Roboto', sans-serif;
 }
-.header-hero-conteiner {
+
+.header-hero-main {
+  color: #434455;
+  background-color: #2e2f42;
+  font-family: 'Roboto', sans-serif;
 }
+.header-conteiner {
+  display: flex;
+}
+
 .logo-link {
   font-family: 'Raleway', sans-serif;
   line-height: 1.17;
@@ -45,6 +62,7 @@ a {
   line-height: 21px;
   color: #4d5ae5;
   line-height: 1.17;
+  margin-right: 76px;
 }
 .logo-part {
   font-family: 'Raleway', sans-serif;
@@ -99,8 +117,11 @@ a {
 
 /* Hero */
 
-.main-section-one {
+.main-section-main {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
+  text-align: center;
 }
 
 .header-hero-one {
@@ -114,6 +135,8 @@ a {
   line-height: 60px;
   color: #ffffff;
   line-height: 1.07;
+  margin-top: 0;
+  margin-bottom: 48px;
 }
 
 .header-one-button {
@@ -182,6 +205,13 @@ a {
   text-transform: capitalize;
   color: #2e2f42;
 }
+.list-our-team {
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  display: flex;
+  gap: 24px;
+  margin-bottom: 0;
+}
 
 /* Team section */
 .team-section-for {
@@ -231,15 +261,21 @@ a {
 }
 .img-team-group {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  text-align: center;
 }
 
 /* Portfolio*/
 
 /* Filter */
-.list {
-  list-style: none;
-  list-style: none;
+
+.list-portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 48px;
+  column-gap: 24px;
 }
+
 .main-portfolio {
   font-family: 'Roboto', sans-serif;
   color: #434455;
@@ -330,7 +366,81 @@ a {
   line-height: 24px;
   color: #f4f4fd;
 }
+
 .link {
   text-decoration: none;
   list-style: none;
+}
+
+/*  */
+.section {
+  padding-left: 24px;
+}
+
+.list {
+  list-style: none;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+img {
+  display: block;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.nav-menu-id {
+  margin-right: 100px;
+}
+.header-nav-menu {
+  display: flex;
+  align-items: center;
+}
+
+.nav-menu-id {
+  display: block;
+  margin-right: 24px;
+}
+
+.header-nav {
+  margin-right: auto;
+}
+.contact-limk-id {
+  margin-right: 40px;
+}
+
+.logo-part {
+}
+.logo-link {
+  display: flex;
+}
+
+.work-paragraf {
+  margin-left: 24px;
 }
