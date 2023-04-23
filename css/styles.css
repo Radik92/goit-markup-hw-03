@@ -96,6 +96,8 @@ a {
 
 .header-address-nav {
   font-style: normal;
+  gap: 40px;
+  margin-right: 40px;
 }
 .contact-limk-id {
   font-family: 'Roboto';
@@ -421,6 +423,7 @@ button {
 .header-nav-menu {
   display: flex;
   align-items: center;
+  gap: 40px;
 }
 
 .nav-menu-id {
@@ -443,4 +446,12 @@ button {
 
 .work-paragraf {
   margin-left: 24px;
+}
+
+.header-li-lost {
+  margin-right: 0;
+}
+
+.adress-li-lost {
+  margin-right: 0;
 }
