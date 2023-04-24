@@ -300,7 +300,7 @@ a {
   flex-wrap: wrap;
   row-gap: 48px;
   column-gap: 24px;
-  padding: 96px 0 120px;
+  padding: 10px 0 120px;
 }
 
 .main-portfolio {
@@ -317,6 +317,10 @@ a {
   font-size: 16px;
   line-height: 24px;
   color: #4d5ae5;
+  cursor: pointer;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  padding: 12px 24px;
 }
 .button-filter-control:hover {
   color: #ffffff;
@@ -489,6 +493,7 @@ button {
 
 .logo-part {
 }
+
 .logo-link {
   display: flex;
 }
@@ -536,11 +541,13 @@ button {
 }
 
 .filter-portfolio-cart {
-  padding: 96px 0 120px;
+  display: flex;
+  gap: 24px;
+  margin-bottom: 72px;
+  justify-content: center;
 }
+
 .filter-type {
-  padding-top: 96px;
-  padding-bottom: 120px;
 }
 
 .card-content {
@@ -549,4 +556,8 @@ button {
 
 .title-img-list {
   padding-bottom: 120px;
+}
+
+.main-section-one {
+  padding-top: 96px;
 }
