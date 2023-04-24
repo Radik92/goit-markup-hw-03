@@ -296,7 +296,7 @@ a {
 
 /* Filter */
 
-.list-portfolio-cart {
+.list-portfolio-image-cart {
   display: flex;
   flex-wrap: wrap;
   row-gap: 48px;
