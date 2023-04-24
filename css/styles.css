@@ -304,10 +304,11 @@ a {
   padding: 10px 0 120px;
 }
 
-.main-portfolio {
+.main-portfolio-class {
   font-family: 'Roboto', sans-serif;
   color: #434455;
 }
+
 .button-filter-control {
   cursor: pointer;
   font-family: 'Roboto', sans-serif;
