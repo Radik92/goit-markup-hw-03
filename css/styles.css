@@ -325,10 +325,12 @@ a {
 .button-filter-control:hover {
   color: #ffffff;
   background-color: #404bbf;
+  border: 1px solid transparent;
 }
 .button-filter-control:focus {
   color: #ffffff;
   background-color: #404bbf;
+  border: 1px solid transparent;
 }
 
 /* Project Card */
