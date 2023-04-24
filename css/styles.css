@@ -141,6 +141,8 @@ a {
   margin-top: 0;
   margin-bottom: 48px;
   max-width: 496px;
+  margin: auto;
+  margin-bottom: 48px;
 }
 
 .header-one-button {
@@ -157,6 +159,7 @@ a {
   height: 56px;
   border: none;
   border-radius: 4px;
+  margin: 0 auto;
 }
 
 .header-one-button {
@@ -171,7 +174,8 @@ a {
   background: #404bbf;
 }
 .main-section-work {
-  padding: 120px 0 120px;
+  padding-top: 0;
+  padding: 120px 0;
 }
 
 /* What are we doing */
@@ -207,6 +211,7 @@ a {
   line-height: 40px;
   line-height: 1.11;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 /* Our Team */
@@ -230,6 +235,7 @@ a {
 /* Team section */
 .team-section-for {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 .title-team-our {
   font-family: 'Roboto';
@@ -254,6 +260,7 @@ a {
   color: #2e2f42;
   color: #2e2f42;
   margin-bottom: 72px;
+  margin-bottom: 8px;
 }
 
 .title-team {
@@ -364,6 +371,9 @@ a {
   line-height: 1.17;
   display: inline-block;
   margin-bottom: 16px;
+  display: inline-block;
+  margin-bottom: 16px;
+  display: inline-block;
 }
 
 .studio-link-footer {
@@ -389,6 +399,10 @@ a {
   font-size: 16px;
   line-height: 24px;
   color: #f4f4fd;
+  max-width: 264px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .link {
@@ -409,6 +423,7 @@ a {
   box-sizing: border-box;
   align-items: center;
   margin-bottom: 0;
+  padding: 0;
 }
 
 h1,
@@ -468,9 +483,8 @@ button {
 }
 
 .work-menu-paragraf {
+  display: flex;
   gap: 24px;
-  width: calc((100% - 72px) / 4);
-  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .work-paragraf {
@@ -482,16 +496,23 @@ button {
 }
 
 .work-li {
-  margin-right: 24px;
-  width: calc((100% - 72px) / 4);
-  flex-basis: calc((100% - 3 * 24px) / 4);
+  width: calc((100%-24px * 3) / 4);
 }
 
 .title-doing-list {
   padding-bottom: 120px;
+  gap: 24px;
 }
 
 .title-projects-group {
+  margin-bottom: 72px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--secondary-txt-color);
+  text-align: center;
 }
 
 .container-our-team {
@@ -509,4 +530,11 @@ button {
 .filter-type {
   padding-top: 96px;
   padding-bottom: 120px;
+}
+
+.card-content {
+  padding: 32px 16px;
+}
+
+.container-footer {
 }
