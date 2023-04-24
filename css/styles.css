@@ -344,6 +344,7 @@ a {
   font-size: 20px;
   line-height: 24px;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .subtitle-project-card {
   font-family: 'Roboto';
@@ -540,6 +541,7 @@ button {
 
 .portfolio-card-content {
   padding: 32px 16px;
+  border: 1px solid #e7e9fc;
 }
 
 .filter-portfolio-cart {
